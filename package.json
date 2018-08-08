@@ -1,7 +1,7 @@
 {
-  "name": "my-component",
+  "name": "img-zoom",
   "version": "0.0.1",
-  "description": "Stencil Component Starter",
+  "description": "Web component for zoomable images",
   "module": "dist/esm/index.js",
   "main": "dist/index.js",
   "types": "dist/types/components.d.ts",
@@ -23,14 +23,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ionic-team/stencil-component-starter.git"
+    "url": "git+https://github.com/AmitMY/zoom-img.git"
   },
-  "author": "Ionic Team",
+  "author": "Amit Moryossef",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ionic-team/stencil"
+    "url": "https://github.com/AmitMY/zoom-img/stencil"
   },
-  "homepage": "https://github.com/ionic-team/stencil",
+  "homepage": "https://github.com/AmitMY/zoom-img/stencil",
   "jest": {
     "transform": {
       "^.+\\.(ts|tsx)$": "<rootDir>/node_modules/@stencil/core/testing/jest.preprocessor.js"

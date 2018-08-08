@@ -25,37 +25,42 @@ declare global {
   interface HTMLAttributes {}
 }
 
+import {
+  ImgZoomSettings,
+} from './components/img-zoom/img-zoom';
 
 declare global {
 
   namespace StencilComponents {
-    interface MyComponent {
-      'first': string;
-      'last': string;
+    interface ImgZoom {
+      'alt': string;
+      'settings': ImgZoomSettings;
+      'src': string;
     }
   }
 
-  interface HTMLMyComponentElement extends StencilComponents.MyComponent, HTMLStencilElement {}
+  interface HTMLImgZoomElement extends StencilComponents.ImgZoom, HTMLStencilElement {}
 
-  var HTMLMyComponentElement: {
-    prototype: HTMLMyComponentElement;
-    new (): HTMLMyComponentElement;
+  var HTMLImgZoomElement: {
+    prototype: HTMLImgZoomElement;
+    new (): HTMLImgZoomElement;
   };
   interface HTMLElementTagNameMap {
-    'my-component': HTMLMyComponentElement;
+    'img-zoom': HTMLImgZoomElement;
   }
   interface ElementTagNameMap {
-    'my-component': HTMLMyComponentElement;
+    'img-zoom': HTMLImgZoomElement;
   }
   namespace JSX {
     interface IntrinsicElements {
-      'my-component': JSXElements.MyComponentAttributes;
+      'img-zoom': JSXElements.ImgZoomAttributes;
     }
   }
   namespace JSXElements {
-    export interface MyComponentAttributes extends HTMLAttributes {
-      'first'?: string;
-      'last'?: string;
+    export interface ImgZoomAttributes extends HTMLAttributes {
+      'alt'?: string;
+      'settings'?: ImgZoomSettings;
+      'src'?: string;
     }
   }
 }
