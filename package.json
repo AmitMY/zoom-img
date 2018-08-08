@@ -1,5 +1,5 @@
 {
-  "name": "img-zoom",
+  "name": "stencil-img-zoom",
   "version": "0.0.1",
   "description": "Web component for zoomable images",
   "module": "dist/esm/index.js",

@@ -8,7 +8,7 @@ Like no other, it does not resort to using CSS background images, or a canvas, b
 ## Usage
 To use this component in your app, no matter what framework you are using, follow these steps:
 
-- pop this script tag `<script async defer src='https://unpkg.com/img-zoom@0.0.1/dist/img-zoom.js'></script>` into your index.html
+- pop this script tag `<script async defer src='https://unpkg.com/stencil-img-zoom@0.0.1/dist/img-zoom.js'></script>` into your index.html
 
 ## API
 Properties:
